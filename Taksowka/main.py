@@ -11,6 +11,7 @@ if iloscGotowki < 0:
     exit()
 elif iloscGotowki < 10:
     print("Nie stać cię na taksówkę")
+    exit()
 
 print("Jak daleko jesteś od domu?")
 odlegloscOdDomu = float(input())
